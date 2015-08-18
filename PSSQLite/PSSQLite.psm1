@@ -43,7 +43,7 @@ function Get-SQLiteConnection {
         [System.Data.SQLite.SQLiteConnection]::CreateFile($Database)
     }
 
-    $connectionString = "Data Source=$WEB_ROOT\App_Data\$Database;foreign keys=true;"
+    $connectionString = "Data Source=$Database;foreign keys=true;"
     [System.Data.SQLite.SQLiteConnection]$connection = New-Object System.Data.SQLite.SQLiteConnection($connectionString)
 
     return $connection
