@@ -1,4 +1,4 @@
-﻿# PSSQLite
+﻿# PSSQLite (PowerShell SQLite Module)
 
 <p>Be Sure to edit first line of PSSQLite.psm1</p>
 <code>
